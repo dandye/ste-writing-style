@@ -8,7 +8,7 @@ A collection of skills and tools for writing, auditing, and managing technical d
 
 ---
 
-## 🌟 Features
+## Features
 
 - **ASD-STE100 Compliance**: Strict enforcement of controlled vocabulary, active voice, sentence length limits (≤20 words for instructions, ≤25 words for descriptions), simple tenses, and noun stacks (≤3 nouns).
 - **Extensible Dictionary System**: Define domain-specific **Technical Names (TN)** and **Technical Verbs (TV)** at both the project repository level (`.ste-dictionary.yaml`) and individual document level (`ste_vocabulary:` YAML frontmatter).
@@ -17,7 +17,7 @@ A collection of skills and tools for writing, auditing, and managing technical d
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -44,7 +44,7 @@ A collection of skills and tools for writing, auditing, and managing technical d
 
 ---
 
-## 🚀 Skills & Commands
+## Skills & Commands
 
 | Command | Skill | Description |
 | :--- | :--- | :--- |
@@ -54,7 +54,7 @@ A collection of skills and tools for writing, auditing, and managing technical d
 
 ---
 
-## 📖 Extensible Dictionary & Resolution Hierarchy
+## Extensible Dictionary & Resolution Hierarchy
 
 STE requires controlled vocabulary while allowing technical domain terms. This skill resolves approved words using a 3-tier **Priority Hierarchy**:
 
@@ -104,7 +104,7 @@ forbidden_project_words:
 
 ---
 
-## 🔗 Cross-Reference with `information-architecture`
+## Cross-Reference with `information-architecture`
 
 This extension works seamlessly alongside [`dandye/information-architecture`](https://github.com/dandye/information-architecture):
 
@@ -114,7 +114,7 @@ This extension works seamlessly alongside [`dandye/information-architecture`](ht
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Option A: Install into Local Agent Customizations (`.agents/skills/`)
 Clone or copy the `skills/` directory into your project's `.agents/skills/` folder:
@@ -132,6 +132,6 @@ cp -r skills/* ~/.gemini/config/skills/
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.

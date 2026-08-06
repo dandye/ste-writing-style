@@ -29,6 +29,6 @@ A collection of skills for writing, auditing, and managing technical documentati
 
 When reviewing or writing documentation, vocabulary is resolved in the following priority order:
 
-1. 🥇 **Document-Level Frontmatter (`ste_vocabulary:`)**: Per-file inline vocabulary overrides.
-2. 🥈 **Project Repository Dictionary (`.ste-dictionary.yaml`)**: Shared repository Technical Names & Technical Verbs.
-3. 🥉 **Core ASD-STE100 Dictionary**: Standard general controlled English words.
+1. **Document-Level Frontmatter (`ste_vocabulary:`)**: Per-file inline vocabulary overrides.
+2. **Project Repository Dictionary (`.ste-dictionary.yaml`)**: Shared repository Technical Names & Technical Verbs.
+3. **Core ASD-STE100 Dictionary**: Standard general controlled English words.
