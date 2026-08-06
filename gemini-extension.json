@@ -1,0 +1,8 @@
+{
+  "name": "ste-writing-style",
+  "version": "1.0.0",
+  "description": "Simplified Technical English (ASD-STE100) skills for AI coding assistants, featuring extensible dictionaries and automated vocabulary discovery.",
+  "repository": "https://github.com/dandye/ste-writing-style",
+  "author": "dandye",
+  "license": "MIT"
+}

@@ -1,0 +1,62 @@
+# Example Extended STE Project Dictionary (.ste-dictionary.yaml)
+version: "1.0"
+project: "CloudPlatform-Core"
+description: "Extended Technical Dictionary for CloudPlatform Core API & CLI"
+
+technical_names:
+  - term: "cluster"
+    part_of_speech: "noun"
+    category: "software"
+    definition: "A set of worker machines that run containerized applications."
+    forbidden_synonyms:
+      - "node farm"
+      - "server group"
+
+  - term: "pod"
+    part_of_speech: "noun"
+    category: "software"
+    definition: "The smallest deployable unit of computing that can be created and managed."
+    forbidden_synonyms:
+      - "container group"
+      - "instance task"
+
+  - term: "service account"
+    part_of_speech: "noun"
+    category: "process"
+    definition: "A special account used by an application or component, not a person."
+    forbidden_synonyms:
+      - "app user"
+      - "bot account"
+
+  - term: "token"
+    part_of_speech: "noun"
+    category: "software"
+    definition: "A sequence of characters used to authenticate a user or service."
+    forbidden_synonyms:
+      - "auth hash"
+      - "passkey string"
+
+technical_verbs:
+  - term: "deploy"
+    part_of_speech: "verb"
+    definition: "Install and start an application or service on a cluster."
+    approved_usage: "Deploy the microservice to the staging cluster."
+    forbidden_synonyms:
+      - "roll out"
+      - "spin up"
+
+  - term: "authenticate"
+    part_of_speech: "verb"
+    definition: "Verify the identity of a user or service account."
+    approved_usage: "Authenticate the request with a valid token."
+    forbidden_synonyms:
+      - "validate identity"
+      - "login-check"
+
+forbidden_project_words:
+  - word: "spin up"
+    replacement: "start"
+  - word: "tear down"
+    replacement: "delete"
+  - word: "sanity check"
+    replacement: "test"
