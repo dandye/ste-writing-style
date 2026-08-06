@@ -11,6 +11,7 @@ A collection of skills and tools for writing, auditing, and managing technical d
 ## Features
 
 - **ASD-STE100 Compliance**: Strict enforcement of controlled vocabulary, active voice, sentence length limits (≤20 words for instructions, ≤25 words for descriptions), simple tenses, and noun stacks (≤3 nouns).
+- **Dual OKF 2.0 & AI Agent Frontmatter**: All skills are fully compliant with both the Open Knowledge Format (OKF 2.0 / 0.2) concept specification and Antigravity / Gemini CLI skill standards.
 - **Extensible Dictionary System**: Define domain-specific **Technical Names (TN)** and **Technical Verbs (TV)** at both the project repository level (`.ste-dictionary.yaml`) and individual document level (`ste_vocabulary:` YAML frontmatter).
 - **Automated Vocabulary Discovery**: Cross-references the [`information-architecture`](https://github.com/dandye/information-architecture) skill suite (`vocabulary-overlap-analysis`, `thesaurus-generate`) to harvest domain terms from your codebase and auto-populate your STE dictionary.
 - **Automated STE Auditing**: Run comprehensive compliance audits on Markdown files, PRs, and runbooks with line-by-line violation reports and suggested rewrites.

@@ -1,10 +1,30 @@
 ---
 name: ste-dictionary-generate
+type: Skill
+title: Extensible STE Dictionary Generator
 description: >-
   Automatically generate a project-specific Extensible STE Dictionary (.ste-dictionary.yaml) from a codebase or document set.
   Cross-references the `information-architecture` skill suite (`vocabulary-overlap-analysis`, `thesaurus-generate`, `named-entity-normalization`)
   to discover proprietary technical terms, software/hardware entities, UI names, and action verbs, formatting them into ASD-STE100 schema.
   Use when initializing STE documentation for a new repository or updating an existing project dictionary.
+tags:
+  - ste
+  - asd-ste100
+  - dictionary-generator
+  - controlled-vocabulary
+  - information-architecture
+  - taxonomy
+status: verified
+generated: 2026-08-06T00:00:00Z
+sources:
+  - https://www.asd-ste100.org/
+  - https://github.com/dandye/information-architecture
+resource: https://github.com/dandye/ste-writing-style
+personas:
+  - information-architect
+  - taxonomist
+  - technical-writer
+  - software-engineer
 ---
 
 # STE Dictionary Generation Skill

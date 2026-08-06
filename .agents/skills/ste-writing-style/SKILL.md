@@ -1,10 +1,29 @@
 ---
 name: ste-writing-style
+type: Skill
+title: Simplified Technical English (ASD-STE100) Writing Style
 description: >-
   Guide technical documentation creation and editing according to ASD-STE100 Simplified Technical English (STE).
   Enforces controlled vocabulary, strict grammar constraints (active voice, max 20-word instructions, simple tenses),
   and extensible project-specific dictionaries. Cross-references the `information-architecture` skill suite for automated vocabulary discovery.
   Use whenever writing, reviewing, or refactoring technical manuals, API documentation, runbooks, SOPs, or software specs in STE style.
+tags:
+  - ste
+  - asd-ste100
+  - technical-writing
+  - controlled-vocabulary
+  - documentation
+  - information-architecture
+status: verified
+generated: 2026-08-06T00:00:00Z
+sources:
+  - https://www.asd-ste100.org/
+  - https://github.com/dandye/information-architecture
+resource: https://github.com/dandye/ste-writing-style
+personas:
+  - technical-writer
+  - documentation-engineer
+  - software-engineer
 ---
 
 # Simplified Technical English (STE) Writing Style Skill
