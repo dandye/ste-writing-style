@@ -1,28 +1,28 @@
 ---
 name: ste-audit
-type: Skill
-title: ASD-STE100 Compliance Audit
 description: >-
   Audit technical documentation for compliance with ASD-STE100 Simplified Technical English (STE) rules.
-  Evaluates sentence length limits, passive voice, complex verb tenses, noun stacks (>3), unapproved vocabulary,
+  Evaluates sentence length limits, passive voice, complex verb tenses, noun stacks (more than 3), unapproved vocabulary,
   and missing warning placements. Produces a detailed STE Audit Report with actionable fixes.
   Use when reviewing existing documentation, PRs, or user guides for STE compliance.
-tags:
-  - ste
-  - asd-ste100
-  - audit
-  - linter
-  - compliance
-  - documentation
-status: verified
-generated: 2026-08-06T00:00:00Z
-sources:
-  - https://www.asd-ste100.org/
-resource: https://github.com/dandye/ste-writing-style
-personas:
-  - technical-writer
-  - documentation-engineer
-  - qa-engineer
+metadata:
+  title: ASD-STE100 Compliance Audit
+  tags:
+    - ste
+    - asd-ste100
+    - audit
+    - linter
+    - compliance
+    - documentation
+  resource: https://github.com/dandye/ste-writing-style
+  status: verified
+  generated: "2026-08-06T00:00:00Z"
+  sources:
+    - https://www.asd-ste100.org/
+  personas:
+    - technical-writer
+    - documentation-engineer
+    - qa-engineer
 ---
 
 # STE Audit & Compliance Skill

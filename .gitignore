@@ -1,4 +1,41 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+*service_account*.json
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Agent Development Kit (ADK) & Agent Caches
+.adk/
+
+# OS & Editor Artifacts
 .DS_Store
+.vscode/
+.idea/
+*.swp
+*~
 *.log
 scratch/
 node_modules/
